@@ -1,0 +1,243 @@
+body {
+	background-color: #B9090B;
+	text-align: center;
+	height, width: 100%;
+	margin: 0; 
+}
+
+h1 {
+	font-family: "Impact", Charcoal, sans-serif;
+	text-shadow: 2px 2px black, 0 1px black, 1px 0 black, 0 -1px black;
+	letter-spacing:3px;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 1.5em;
+}
+
+p, h3{
+	font-family: "Arial", Helvetica, sans-serif;
+}
+
+h2 {
+	font-family: "Arial", Helvetica, sans-serif;
+	text-transform: uppercase;
+}
+
+
+a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+a:hover {
+	text-decoration: none;
+	color: gray;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+#content{
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	position:relative;
+	margin: 0px auto 0px auto;
+	display: block;
+	background-color: white;
+	border-top: 5px solid black;
+	border-bottom: 5px solid black;
+}
+
+#header{
+	background-color: #B9090B;
+	position: relative;
+	margin: 0 auto 0 auto;
+	height, width: 100%;
+}
+
+#login{
+	width:70%;
+	height:100%;
+	position: relative;
+	margin:auto;
+	padding-top:40px;
+	padding-bottom:40px;
+}
+
+#email{
+	height: 3em;
+	width: 100%;
+}
+#password{
+	height: 3em;
+	width: 100%;
+}
+#connect{
+	height:3em;
+	width: 75%;
+}
+
+#story{
+	width:90%;
+	position: relative;
+	margin: auto;
+}
+
+#story p {
+	font-size: 1.2em;
+}
+
+
+#couch{
+	background-image: url('images/Couch_black.png');
+	background-repeat:no-repeat;
+	background-position: center top;
+	width:100%;
+	min-height: 175px;
+}
+
+#create {
+	background-color: gray;
+	padding: 5px 0 0 0;
+}
+
+#group{
+	width: 100%;
+	min-height: 150px;
+	display: none;
+	background-color: gray;
+}
+
+#login{
+	position: relative;
+	margin: auto;
+	height, width: 100%;
+}
+
+.button{
+	padding-top: 20px;
+}
+
+#logging {
+	position:absolute;
+}
+
+#socialmedia{
+	display:none;
+}
+
+#socialmedia div {
+	border-top: 1px solid black;
+	width:100%;
+}
+
+#contactlist {
+	position: relative;
+	margin: auto;
+	width: 90%;
+}
+
+.pic, .befriend{
+	width:20%;
+	font-weight: bold;
+}
+
+.name {
+	width:60%;
+	text-align: left;
+	padding-left: 25px;
+}
+
+#couch .name {
+	width:80%;
+}
+
+#couch .friend{
+	position: relative;
+	float: left;
+	background-color: white;
+	opacity: 0.85;
+}
+
+.befriend a{
+	font-size: 1em;
+}
+
+#morefriends {
+	border-top: 1px solid #29292d;
+	border-bottom: 1px solid #29292d;
+	display:none;
+	margin: 15px 0 15px 0;
+}
+
+#morefriends a{
+	font-size: 1em;
+	font-weight: lighter;
+}
+
+.pic img {
+	height:50px;
+	width: 50px;
+}
+
+#filter {
+	width: 100%;
+}
+
+#onetime {
+	width:50%;
+	background-color: #29292d;
+	color:white;
+	float:left;
+	border-bottom: 1px solid black;
+}
+
+#xtime {
+	width: 50%;
+	float:left;
+	border-bottom: 1px solid black;
+}
+
+#onewatch {
+	height: 100%;
+}
+
+#xwatch {
+	display: none;
+	height: 100%;
+}
+
+#results {
+	height: 300px;
+}
+
+#top_results {
+	padding-top: 50px;
+	height:275px;
+}
+
+.movie {
+	float: left;
+	position: relative;
+	height: 75%;
+	width: 33%;
+}
+
+.movie a {
+	font-size: 1em;
+	font-weight: lighter;
+}
+
+#movie {
+	height: 100%;
+	width: 100%;
+}
+
+#footer{
+	width: 100%;
+	height: 50px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>What Should We Watch?</title>
+        <meta charset="utf-8">
+        <meta name = "viewport" content = "width = device-width">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="header">
+            <h1>What Should We Watch?!</h1>
+        </div>
+        <div id="content">
+            <div id="step">
+                <h2>set up your account</h2>
+            </div>
+            <div id="login" style="margin-top:-50px;">
+                <div id="connect_netflix">
+                    <p>Connect your Netflix account</p>
+                    <form id="first_login">
+                        <input id="email" type="email" name="email" placeholder="Email" autocomplete="on" required/><br /><br />
+                        <input id="password" type="password" name="password" placeholder="Password" required/><br /><br />
+                    </form>
+                    <input id="connect" type="submit" name="connect" value="Connect">
+                </div>
+            </div>
+            <div id="socialmedia">
+                <h2>Connect with your friends</h2>
+                <div id="facebook"><p><a href="facebook.html">Find through Facebook</a></p></div>
+                <div id="gmail"><p><a href="gmail.html">Find through Gmail</a></p></div>
+                <div id="solo"><p><a href="group.html" onClick="alert('Congratulations! You\'re all set up!!!')">I'll add friends later</a></p></div>
+            </div>    
+        </div>
+        <div id="footer">
+        </div>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="js/action.js"></script>
+    </body>
+</html>

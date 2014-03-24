@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>What Should We Watch?</title>
+        <meta charset="utf-8">
+        <meta name = "viewport" content = "width = device-width">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="media">
+            <img id="fb_head" src="images/facebook.png" width="100%" height="100%" />
+            <img id="logging" src="images/thinking2.gif" alt="thinking" loop=infinite height="40px" width="40px"/>
+        </div>
+        <div id="header" style="display:none;">
+            <h1>What Should We Watch?!</h1>
+        </div>
+        <div id="content" style="display:none;">
+            <h2>Facebook:</h2>
+            <table id="contactlist" >
+                <tr class="person">
+                    <td class="pic"><img id="ginny" src="images/ginny.jpg" alt="pic1" /></td>
+                    <td class="name"><p>Ginny Weasley</p></td>
+                    <td class="befriend"><p>Add</p></td>
+                </tr>
+                <tr class="person">
+                    <td class="pic"><img id="harry" src="images/harry.jpg" alt="pic1" /></td>
+                    <td class="name"><p>Harry Potter</p></td>
+                    <td class="befriend"><p>Add</p></td>
+                </tr>
+                <tr class="person">
+                    <td class="pic"><img id="hermione" src="images/hermione.jpg" alt="pic1" /></td>
+                    <td class="name"><p>Hermione Granger</p></td>
+                    <td class="befriend"><p>Add</p></td>
+                </tr>
+                <tr class="person">
+                    <td class="pic"><img id="luna" src="images/luna.jpg" alt="pic1" /></td>
+                    <td class="name"><p>Luna Lovegood</p></td>
+                    <td class="befriend"><p>Add</p></td>
+                </tr>
+                <tr class="person">
+                    <td class="pic"><img id="neville" src="images/neville.jpg" alt="pic1" /></td>
+                    <td class="name"><p>Neville Longbottom</p></td>
+                    <td class="befriend"><p>Add</p></td>
+                </tr>
+                <tr class="person">
+                    <td class="pic"><img id="ron" src="images/ron.jpg" alt="pic1" /></td>
+                    <td class="name"><p>Ron Weasley</p></td>
+                    <td class="befriend"><p>Add</p></td>
+                </tr> 
+            </table>
+            
+        </div>
+        <div  id="footer" style="display:none;">
+            <p><a id="ok" href="group.html" onClick="alert('Congratulations! You\'re all set up!!!')">OK</a></p>
+        </div>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="js/action.js"></script>
+        <script>
+            $(document).ready(function(){
+                var left = $(window).width()/2 - 20;
+                var top = $(window).height()/3 - 20;
+                //console.log(left, top)
+                $("#logging").css("left", left).css("top", top);
+
+                setTimeout(function(){
+                    $("#media").toggle();
+                    $("#header").toggle();
+                    $("#content").toggle();
+                    $("#footer").toggle();
+                },5000);
+            });
+        </script>
+    </body>
+</html>
